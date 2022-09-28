@@ -1,0 +1,13 @@
+
+{% if user.is_authenticated %}
+    {% if message %}
+        
+        <div class="alert alert-success" role="alert">{{message}} <span>5</span> seconds </div>
+
+    {% endif %}
+{% endif %}
+<script>
+    setTimeout(function(){
+         window.location.href = '../showAll/';
+      }, 5000);
+</script>

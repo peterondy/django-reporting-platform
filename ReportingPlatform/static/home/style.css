@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    overflow-x: hidden !important;
+    color: antiquewhite !important;
+}
+/*================navbar==============*/
+nav{
+    position: fixed !important;
+    width: 100% !important;
+    transition: 1.5s;
+    z-index: 999 !important;
+}
+nav a{
+    color: bisque !important;
+}
+a.nav-link:hover{
+    color: rgb(172, 157, 140) !important;
+    transition: 1s;
+}
+/*================class of scroll down/up ==============*/
+.scrollHeader{
+    background-color: #ad4b5a !important;
+    transition: 2s;
+}
+
+/*================Home Style ==============*/
+div#home{
+    width: 100%;
+    height: 100vh;
+    background-color: antiquewhite;
+    background-image: url('img/UniverseImage.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 5rem !important;
+}
+div#home div.float-start a img{
+    transform: rotate(-20deg);
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+div#home div.float-end img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+/*==========container style========================*/
+
+#contracts{
+    height: 10rem;
+    border: 1px solid #000;
+    margin: 2rem 0;
+    padding: 2.5rem;
+}
+#contracts .card{
+    border: none;
+}
+#contracts i{
+    color: #000;
+    font-size: 3.5rem;
+}
+#contracts i.fa-brands{
+    padding-top: 1rem;
+}
+#about{
+    width: 100%;
+    height: 200px;
+    margin-top: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: #ad4b5a;
+}
+#about img{
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+    margin-left: 3rem;
+}
+
+/*========================works section============================*/
+
+#works{
+    height: 80vh !important;
+}
+#works .carousel, .carousel-inner{
+    height: 100% !important;
+}
+/*========================footer section============================*/
+
+footer, footer div{
+    background-color: #ad4b5a !important;
+    color: antiquewhite !important;
+}
+.social-icons ul li{
+    display: inline-block !important;
+}
+.social-icons ul li a i{
+    font-size: 1.5rem;
+    margin-left: 1rem;
+}
+
+/*================offcanvas=======================*/
+.bg-c-ad4b5a{
+    background-color: #ad4b5a !important;
+}
+.offcanvas{
+  transition: 1s !important;
+  width: 200px !important;
+}
+.offcanvas-body{
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.offcanvas-body ul {
+    width: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.offcanvas-body ul li{
+    width: 100%;
+    height: 3rem;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: block;
+}
+.offcanvas-body ul li a{
+    width: 100%;
+    height: 3rem;
+    margin: .5rem 0;
+    padding-top: .5rem;
+}
+.offcanvas-body ul li h6{
+    width: 100%;
+    height: 3rem;
+    margin-top: .5rem;
+    padding-top: .5rem;
+    cursor: pointer;
+}
+.offcanvas-body ul li a:hover{
+  background-color: #8f3d49;
+}
+.offcanvas-body ul li h6:hover{
+  background-color: #8f3d49;
+}
+.offcanvas-body ul li ul{
+  transition: 1s;
+  background-color: #8f3d49;
+}
+.offcanvas-body ul li ul li a:hover{
+  background-color: #964f58;
+}
+
+#up-container{
+    width: 70%;
+    height: 300px;
+}
+#new-notifications{
+    background-color: #ad4b5a !important;
+    width: 100%;
+    height: 100%;
+}
+.pt-6{
+    padding-top: 6rem !important;
+    background-color: #964f58;
+}

@@ -1,0 +1,4 @@
+<option selected>Select a sub category</option>
+{% for sub_category in  sub_categories %}
+    <option value="{{ sub_category.pk }}">{{ sub_category.subName }}</option>
+{% endfor %}
